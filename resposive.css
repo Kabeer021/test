@@ -1,0 +1,55 @@
+@media screen and (max-width:500px) {
+
+              nav ul li a{
+                      padding: 3vh;
+                  }
+              }
+          
+              @media screen and (max-width:815px){
+          
+                  nav{
+                      flex-direction: column;
+                  }
+                  header{
+                      height: fit-content;
+                  }
+                 nav ul{
+                      margin: 1.2vw;
+                      justify-content: center;
+                  }
+                  
+                  .logo{
+                      margin: auto;
+                  }
+                  .search{
+                          justify-content: center;
+                          display: flex;
+                          align-items: center;
+                  
+                  }
+                  .search input{
+          
+                      margin: 0px;
+                  }
+                  .btn{
+                      margin: 0vh 0vh 0vh 2vh;
+                  }
+                  .search input{
+                      width: 52vw;
+                  }
+                  .container .slider{
+                      height: 51vw;
+                      width: 85vw;
+                  }
+                  .slider img{
+                      width: 88vw;
+                      height: 50vw;
+                  }
+                  .card-item{
+                      width: 44vw;
+                  }
+                  
+              }
+          
+                  
+              

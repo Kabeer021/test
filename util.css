@@ -1,0 +1,32 @@
+:root {
+              --main-bg-color:#2455f4;;
+            }
+          .flex-all-center{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+          .btn{
+              margin: 0vh 0vh 0vh -2vh;
+              padding: 2px 5px;
+              cursor: pointer;
+              border: 2px solid white;
+              background-color: var(--main-bg-color);
+              color: white;
+              border-radius: 3px;
+          }
+          .search button :hover{
+              color: white;
+              font-weight: bold;
+          }
+          
+          .my-2{
+              margin: 6px 15px;
+          }
+          .my-3{
+              margin: 6px 0px;
+          }
+          .text-center{
+          
+              text-align: center;
+          }
